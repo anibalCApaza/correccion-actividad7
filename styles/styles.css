@@ -1,6 +1,7 @@
 body {
   background: var(--color17);
   font-family: "Geist Mono", monospace;
+  margin: 0px;
 }
 
 header {
@@ -51,6 +52,28 @@ section .profile-img img {
 
 section ul {
   margin-block-end: 0;
+}
+footer {
+  background: var(--color18);
+  padding: 10px;
+}
+
+footer .title {
+  color: var(--color11);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+footer .contacts {
+  color: var(--color11);
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.purple-neon {
+  text-shadow: 0 0 3px var(--color4);
+  text-shadow: 0 0 5px var(--color4);
 }
 
 .yellow-neon {
