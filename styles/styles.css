@@ -37,11 +37,20 @@ section .title {
   text-align: left;
 }
 
+section .subtitle {
+  color: var(--color5);
+  text-transform: uppercase;
+}
+
 section .profile-img img {
   border-radius: 50%;
   display: block;
   margin: auto;
   width: 225px;
+}
+
+section ul {
+  margin-block-end: 0;
 }
 
 .yellow-neon {
