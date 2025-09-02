@@ -1,85 +1,101 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Curriculum Vitae - Anibal Rodrigo Corini Apaza</title>
 
+    <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Estilos -->
     <link rel="stylesheet" href="./styles/colors.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
     <header>
       <h1 class="title red-neon">Curriculum Vitae</h1>
-      <div class="orange-neon">Anibal Rodrigo Corini Apaza</div>
+      <h2 class="orange-neon">Anibal Rodrigo Corini Apaza</h2>
     </header>
-    <section>
-      <div class="profile-img">
-        <img src="./images/profile.PNG" alt="" />
-      </div>
-      <div class="about-me">
-        <h2 class="title yellow-neon">Acerca de mi</h2>
-        <div class="content">
+
+    <main>
+      <!-- Perfil -->
+      <section class="profile">
+        <figure class="profile-img">
+          <img
+            src="./images/profile.PNG"
+            alt="Foto de perfil de Anibal Rodrigo Corini Apaza"
+          />
+        </figure>
+      </section>
+
+      <!-- Acerca de mí -->
+      <section class="about-me">
+        <h2 class="title yellow-neon">Acerca de mí</h2>
+        <p class="content">
           Desarrollador de Software con más de 3 años de experiencia en la
           creación de sistemas de información web y escritorio, empleando
-          arquitecturas límpias y un enfoque en el desarrollo de software
+          arquitecturas limpias y un enfoque en el desarrollo de software
           mantenible, escalable y el cumplimiento satisfactorio de los
           requerimientos solicitados.
-        </div>
-      </div>
-      <div class="academy-info">
+        </p>
+      </section>
+
+      <!-- Formación académica -->
+      <section class="academy-info">
         <h2 class="title yellow-neon">Formación Académica</h2>
         <ul class="academy-list">
           <li>
             Técnico Superior en Sistemas Informáticos (2022-2024),
-            <a href="https://www.incoslapaz.org/"> Incos La Paz.</a>
+            <a href="https://www.incoslapaz.org/">Incos La Paz</a>
           </li>
           <li>
-            Licenciatura en Ingeniería de Sistemas (2026-en curso),
-            <a href="https://www.uab.edu.bo/10-ingenieria-de-sistemas/">
-              Universidad Adventista de Bolivia</a
+            Licenciatura en Ingeniería de Sistemas (2026 - en curso),
+            <a href="https://www.uab.edu.bo/10-ingenieria-de-sistemas/"
+              >Universidad Adventista de Bolivia</a
             >
           </li>
           <li>
             Carrera Desarrollador Fullstack Python (2021),
-            <a href="https://www.educacionit.com/carrera-python">
-              Educatión IT
-            </a>
+            <a href="https://www.educacionit.com/carrera-python"
+              >Educatión IT</a
+            >
           </li>
         </ul>
-      </div>
-      <div class="skills-info">
+      </section>
+
+      <!-- Habilidades -->
+      <section class="skills-info">
         <h2 class="title yellow-neon">Habilidades</h2>
         <ul>
           <li>
             <h3 class="subtitle green-neon">Backend</h3>
             <ul>
               <li>Laravel</li>
-              <li>Code Igniter</li>
+              <li>CodeIgniter</li>
               <li>Django</li>
-              <li>Nest JS</li>
-              <li>Express JS</li>
+              <li>NestJS</li>
+              <li>ExpressJS</li>
             </ul>
           </li>
           <li>
             <h3 class="subtitle green-neon">Frontend</h3>
             <ul>
-              <li>Svelte JS</li>
-              <li>Vue JS</li>
-              <li>Jquery</li>
+              <li>SvelteJS</li>
+              <li>VueJS</li>
+              <li>jQuery</li>
             </ul>
           </li>
           <li>
             <h3 class="subtitle green-neon">Bases de Datos</h3>
             <ul>
               <li>PostgreSQL</li>
-              <li>MySql</li>
+              <li>MySQL</li>
               <li>MongoDB</li>
               <li>Otros</li>
             </ul>
@@ -87,42 +103,46 @@
           <li>
             <h3 class="subtitle green-neon">Otros</h3>
             <ul>
-              <li>Electron JS</li>
+              <li>ElectronJS</li>
               <li>NativeScript</li>
               <li>Godot Engine</li>
             </ul>
           </li>
         </ul>
-      </div>
-      <div class="projects-info">
+      </section>
+
+      <!-- Proyectos -->
+      <section class="projects-info">
         <h2 class="title yellow-neon">Proyectos</h2>
         <ul>
           <li>
-            Sistema Web de monitoreo meteorológico para la lectura en tiempo
-            real de variables meteorológicas en el municipio de Coripata.
+            <article>
+              <h3>Sistema Web de monitoreo meteorológico</h3>
+              <p>
+                Lectura en tiempo real de variables meteorológicas en el
+                municipio de Coripata.
+              </p>
+            </article>
           </li>
           <li>
-            Sistema de rockola para salas recreativas en la ciudad de Lima,
-            Perú.
+            <article>
+              <h3>Sistema de rockola</h3>
+              <p>
+                Plataforma para salas recreativas en la ciudad de Lima, Perú.
+              </p>
+            </article>
           </li>
           <li>
-            Sistema de control de personal para la empresa de electrodomésticos
-            TecnoInca.
+            <article>
+              <h3>Sistema de control de personal</h3>
+              <p>
+                Aplicación para la gestión de empleados en la empresa de
+                electrodomésticos Te
+              </p>
+            </article>
           </li>
         </ul>
-      </div>
-    </section>
-
-    <footer>
-      <h3 class="title purple-neon">Contactos</h3>
-      <div class="contacts">
-        <div>
-          <a href="mailto:arcacorini@gmail.com">arcacorini@gmail.com</a>
-        </div>
-        <div>
-          <a href="https://github.com/anibalCApaza" target="_blank">arcadev</a>
-        </div>
-      </div>
-    </footer>
+      </section>
+    </main>
   </body>
 </html>
