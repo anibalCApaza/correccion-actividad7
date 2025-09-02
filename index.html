@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curriculum Vitae - Anibal Rodrigo Corini Apaza</title>
 
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Curriculum Vitae de Anibal Rodrigo Corini Apaza, desarrollador de software con experiencia en sistemas web y escritorio, enfocado en soluciones escalables y mantenibles."
+    />
+
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,18 +24,19 @@
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-    <header>
+    <header role="banner">
       <h1 class="red-neon">Curriculum Vitae</h1>
       <h2 class="orange-neon">Anibal Rodrigo Corini Apaza</h2>
     </header>
 
-    <main>
+    <main id="contenido" role="main">
       <!-- Perfil -->
       <div class="profile">
         <figure class="profile-img">
           <img
             src="./images/profile.PNG"
-            alt="Foto de perfil de Anibal Rodrigo Corini Apaza"
+            alt="Foto de Anibal Rodrigo Corini Apaza"
+            loading="lazy"
           />
         </figure>
       </div>
@@ -52,17 +59,28 @@
         <ul class="academy-list">
           <li>
             Técnico Superior en Sistemas Informáticos (2022-2024),
-            <a href="https://www.incoslapaz.org/">Incos La Paz</a>
+            <a
+              href="https://www.incoslapaz.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Incos La Paz</a
+            >
           </li>
           <li>
             Licenciatura en Ingeniería de Sistemas (2026 - en curso),
-            <a href="https://www.uab.edu.bo/10-ingenieria-de-sistemas/"
+            <a
+              href="https://www.uab.edu.bo/10-ingenieria-de-sistemas/"
+              target="_blank"
+              rel="noopener noreferrer"
               >Universidad Adventista de Bolivia</a
             >
           </li>
           <li>
             Carrera Desarrollador Fullstack Python (2021),
-            <a href="https://www.educacionit.com/carrera-python"
+            <a
+              href="https://www.educacionit.com/carrera-python"
+              target="_blank"
+              rel="noopener noreferrer"
               >Educatión IT</a
             >
           </li>
@@ -144,16 +162,34 @@
         </ul>
       </section>
     </main>
-    <footer>
+
+    <footer role="contentinfo">
       <h3 class="purple-neon">Contactos</h3>
       <address class="contacts">
         <p>
           <a href="mailto:arcacorini@gmail.com">arcacorini@gmail.com</a>
         </p>
         <p>
-          <a href="https://github.com/anibalCApaza" target="_blank">arcadev</a>
+          <a
+            href="https://github.com/anibalCApaza"
+            target="_blank"
+            rel="noopener noreferrer"
+            >arcadev</a
+          >
         </p>
       </address>
     </footer>
+
+    <!-- JSON-LD datos estructurados -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Aníbal Rodrigo Corini Apaza",
+        "jobTitle": "Desarrollador de Software",
+        "email": "mailto:arcacorini@gmail.com",
+        "url": "https://github.com/anibalCApaza"
+      }
+    </script>
   </body>
 </html>
