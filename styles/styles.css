@@ -77,6 +77,15 @@ footer .contacts {
   justify-content: center;
 }
 
+a {
+  color: var(--color11);
+}
+
+.cyan-neon {
+  text-shadow: 0 0 3px var(--color10);
+  text-shadow: 0 0 5px var(--color10);
+}
+
 .purple-neon {
   text-shadow: 0 0 3px var(--color4);
   text-shadow: 0 0 5px var(--color4);
@@ -102,7 +111,7 @@ footer .contacts {
   text-shadow: 0 0 5px var(--color2);
 }
 
-@media (width <= 1023px) {
+@media (width <=1023px) {
   main {
     font-size: 1em;
     grid-gap: 5px;
@@ -110,7 +119,7 @@ footer .contacts {
   }
 }
 
-@media (width <= 787px) {
+@media (width <=787px) {
   header h1 {
     font-size: 2em;
   }
