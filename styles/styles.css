@@ -81,6 +81,12 @@ a {
   color: var(--color11);
 }
 
+a.skip-link {
+  font-size: 0.9em;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
 .cyan-neon {
   text-shadow: 0 0 3px var(--color10);
   text-shadow: 0 0 5px var(--color10);
@@ -135,5 +141,9 @@ a {
   main {
     font-size: 0.9em;
     margin: 20px 5px;
+  }
+
+  a.skip-link {
+    font-size: 0.8em;
   }
 }
