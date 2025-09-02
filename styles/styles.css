@@ -54,6 +54,11 @@ main .profile-img img {
 main ul {
   margin-block-end: 0;
 }
+
+.projects-info article h3 {
+  color: var(--color10);
+}
+
 footer {
   background: var(--color18);
   padding: 10px;
