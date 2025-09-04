@@ -51,6 +51,11 @@ main .profile-img img {
   width: 225px;
 }
 
+main section.skills-info .skills-list {
+  display: flex;
+  gap: 20px;
+}
+
 main ul {
   margin-block-end: 0;
 }
