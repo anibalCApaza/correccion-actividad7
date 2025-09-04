@@ -1,7 +1,7 @@
 body {
   background: var(--color17);
   font-family: "Geist Mono", monospace;
-  margin: 0px;
+  margin: 10px 0px 0px;
 }
 
 header {
@@ -79,6 +79,11 @@ footer .contacts {
 
 a {
   color: var(--color11);
+}
+
+.skip-link{
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .cyan-neon {
