@@ -67,8 +67,6 @@ main ul {
 
 main section.certifications ul.certifications-list li{
   color: var(--color7);
-  text-shadow: 0 0 3px var(--color7);
-  text-shadow: 0 0 5px var(--color7);
 }
 
 footer {
@@ -100,8 +98,7 @@ a {
 
 .text-red-neon{
   color: var(--color1);  
-  text-shadow: 0 0 3px var(--color1);
-  text-shadow: 0 0 5px var(--color1);
+
 }
 
 .cyan-neon {
