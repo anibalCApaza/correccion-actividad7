@@ -87,16 +87,9 @@ a {
   color: var(--color11);
 }
 
-<<<<<<< HEAD
-a.skip-link {
-  font-size: 0.9em;
-  padding: 20px;
-  text-transform: uppercase;
-=======
 .skip-link{
   margin-top: 10px;
   margin-left: 10px;
->>>>>>> dev
 }
 
 .cyan-neon {
