@@ -91,6 +91,11 @@ a {
   color: var(--color11);
 }
 
+a:hover{
+  text-shadow: 0 0 10px var(--color10);
+  font-size: 1.01em;
+}
+
 .skip-link{
   margin-top: 10px;
   margin-left: 10px;
