@@ -53,9 +53,15 @@ main .profile-img img {
 
 main section.skills-info .skills-list {
   display: grid;
-  gap: 60px;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-row-gap: 20px;
+  list-style: none;
+}
+
+main section.skills-info .skills-list ul{
+  list-style: none;
+  padding-left: 20px;
 }
 
 main ul {
